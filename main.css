@@ -22,9 +22,11 @@
 	color: #FFFFFF;
 	font-size: 54px;
 	font-weight:bold;
+	text-align: center;
 }
 
 .jumbotron p {
 	color: #FFFFFF;
 	font-size: 20px;
+	text-align: center;
 }
