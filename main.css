@@ -2,9 +2,8 @@
 	height: 500px;
 	margin-bottom: 0px;
 	margin-top: 20px;
-	background-image: url('/portrait1.JPG') no-repeat center center;
+	background-image: url('/portrait1.JPG');
 	background-size: cover;
-	background-color: #cccccc;
 	font-family: 'Shift', sans-serif;
 	font-size: 45px;
 	margin: 10px;
