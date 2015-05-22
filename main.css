@@ -1,13 +1,10 @@
-.body {
-	font-family: 'Dosis', sans-serif;
-}
-
 .nav a {
 	color: #454545;
-	font-size: 20px;
-	padding: 15px 15px;
-	padding-top: 15px;
-	font-weight: bold;
+	font-size: 30px;
+	padding: 10px 10px;
+	padding-top: 20px;
+	font-weight: thin;
+	font-family: 'Dosis', sans-serif
 }
 
 .nav li {
@@ -15,8 +12,9 @@
 }
 
 .jumbotron {
-	height: 550px;
 	background-image: url('portrait1.JPG');
+	height: 500px;
+	background-repeat: no-repeat;
 	background-size: cover;	
 }
 
