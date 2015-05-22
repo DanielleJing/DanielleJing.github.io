@@ -1,8 +1,8 @@
 .nav a {
 	color: #454545;
 	font-size: 20px;
-	padding: 10px 10px;
 	padding-top: 15px;
+	font-weight: bold;
 }
 
 .nav li {
@@ -10,7 +10,7 @@
 }
 
 .jumbotron {
-	height: 500px;
+	height: 95%;
 	background-image: url('portrait1.JPG');
 	background-size: cover;	
 }
