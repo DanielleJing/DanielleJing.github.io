@@ -1,11 +1,11 @@
 
 html, body {
-	min-height:100%;
+	min-height: 100%;
 	position: fixed;
-	top:0px;
-	bottom:0px;
-	left:0px;
-	right:0px;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 }
 
 .nav {
@@ -20,7 +20,7 @@ html, body {
 	padding: 10px 10px;
 	text-align: left;
 	font-weight: thin;
-	height:10%;
+	height: 10%;
 	font-family: 'Dosis', sans-serif;
 }
 
@@ -34,7 +34,7 @@ html, body {
 }
 
 .jumbotron {
-	background-image: url('portrait1.JPG');
+	background-image: url('images/portrait1.JPG');
 	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;	
@@ -64,7 +64,7 @@ html, body {
 
 .footer {
 	position: absolute;
-	height:10%;
+	height: 10%;
 	width: 100%;
 	background-color: #FFFFFF;
 	margin-top: 0;
