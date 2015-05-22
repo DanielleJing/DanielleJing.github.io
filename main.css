@@ -1,6 +1,6 @@
 
 html, body {
-	height:100%;
+	min-height:100%;
 	position: fixed;
 	top:0px;
 	bottom:0px;
@@ -10,11 +10,11 @@ html, body {
 
 .nav a {
 	color: #454545;
-	font-size: 30px;
+	font-size: 3vw;
 	padding: 10px 10px;
-	padding-top: 20px;
+	text-align: left;
 	font-weight: thin;
-	height:20%;
+	height:10%;
 	font-family: 'Dosis', sans-serif;
 }
 
@@ -33,18 +33,19 @@ html, body {
 	background-repeat: no-repeat;
 	background-size: cover;	
 	color: #FFFFFF;
+	background-color: #C6C6C6;
 }
 
 .jumbotron h2 {
 	color: #FFFFFF;
-	font-size: 70px;
+	font-size: 8vw;
 	font-weight: bold;
 	text-align: right;
 }
 
 .jumbotron h3 {
 	color: #FFFFFF;
-	font-size: 40px;
+	font-size: 4vw;
 	text-align: right;
 	font-family: 'Dosis', sans-serif;
 }
@@ -52,4 +53,19 @@ html, body {
 .jumbotron .container {
     position: relative;
     top: 100px;
+}
+
+.footer {
+	position: absolute;
+	height:10%;
+	width: 100%;
+	background-color: #FFFFFF;
+	margin-top: 0;
+}
+
+.footer h2 {
+	font-size: 20px;
+	text-align: right;
+	font-family: 'Dosis', sans-serif;
+	font-weight: thin;
 }
