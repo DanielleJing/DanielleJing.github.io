@@ -8,6 +8,12 @@ html, body {
 	right:0px;
 }
 
+.nav {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height:10%;
+}
+
 .nav a {
 	color: #454545;
 	font-size: 3vw;
@@ -29,7 +35,7 @@ html, body {
 
 .jumbotron {
 	background-image: url('portrait1.JPG');
-	height: 80%;
+	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;	
 	color: #FFFFFF;
