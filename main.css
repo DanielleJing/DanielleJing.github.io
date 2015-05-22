@@ -1,34 +1,52 @@
+
+html, body {
+	height:100%;
+	position: fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+
 .nav a {
 	color: #454545;
 	font-size: 30px;
 	padding: 10px 10px;
 	padding-top: 20px;
 	font-weight: thin;
-	font-family: 'Dosis', sans-serif
+	height:20%;
+	font-family: 'Dosis', sans-serif;
+}
+
+.nav a:hover {
+	color: #508FCE;
 }
 
 .nav li {
 	display: inline;
+	text-align: left;
 }
 
 .jumbotron {
 	background-image: url('portrait1.JPG');
-	height: 500px;
+	height: 80%;
 	background-repeat: no-repeat;
 	background-size: cover;	
+	color: #FFFFFF;
 }
 
-.jumbotron h1 {
+.jumbotron h2 {
 	color: #FFFFFF;
-	font-size: 60px;
-	font-weight:bold;
+	font-size: 70px;
+	font-weight: bold;
 	text-align: right;
 }
 
-.jumbotron p {
+.jumbotron h3 {
 	color: #FFFFFF;
 	font-size: 40px;
 	text-align: right;
+	font-family: 'Dosis', sans-serif;
 }
 
 .jumbotron .container {
