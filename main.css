@@ -15,7 +15,7 @@
 }
 
 .jumbotron {
-	height: 100%;
+	height: 550px;
 	background-image: url('portrait1.JPG');
 	background-size: cover;	
 }
