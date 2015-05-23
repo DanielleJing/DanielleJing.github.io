@@ -35,6 +35,11 @@ html, body {
 .experience h2 {
 	text-align: center;
 	font-size:5vw;
-	font-family: 'Dosis', sans-serif;
 	font-weight: bold;
+	color: #508FCE;
+}
+
+.closeriq {
+	margin-right: auto;
+	margin-left: auto;
 }
