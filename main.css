@@ -50,13 +50,6 @@ html, body {
 	padding-top: 18%;
 }
 
-.jumbotron h3 {
-	color: #FFFFFF;
-	font-size: 4vw;
-	text-align: right;
-	font-family: 'Dosis', sans-serif;
-}
-
 .jumbotron .container {
     position: relative;
     top: 100px;
