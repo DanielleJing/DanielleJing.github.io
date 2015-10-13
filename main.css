@@ -33,7 +33,7 @@ html, body {
 	text-align: left;
 }
 
-.jumbotron {
+.banner {
 	background-image: url('images/portrait1.JPG');
 	height: 100%;
 	background-repeat: no-repeat;
@@ -42,7 +42,7 @@ html, body {
 	background-color: #C6C6C6;
 }
 
-.jumbotron h2 {
+.banner h2 {
 	color: #FFFFFF;
 	font-size: 8vw;
 	font-weight: bold;
@@ -50,7 +50,7 @@ html, body {
 	padding-top: 18%;
 }
 
-.jumbotron .container {
+.banner .container {
     position: relative;
     top: 100px;
 }
