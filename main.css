@@ -1,78 +1,120 @@
-
-html, body {
-	min-height: 100%;
-	position: fixed;
-	top: 0px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-}
-
-.nav {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	height:10%;
-}
-
-.nav a {
-	color: #454545;
-	font-size: 3vw;
-	padding: 10px 10px;
-	text-align: left;
-	font-weight: thin;
-	height: 10%;
-	font-family: 'Dosis', sans-serif;
-}
-
-.nav a:hover {
-	color: #508FCE;
-}
-
-.nav li {
-	display: inline;
-	text-align: left;
-}
-
-.jumbotron {
-	background-image: url('images/portrait1.JPG');
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;	
-	color: #FFFFFF;
-	background-color: #C6C6C6;
-}
-
-.jumbotron h2 {
-	color: #FFFFFF;
-	font-size: 8vw;
-	font-weight: bold;
-	text-align: right;
-	padding-top: 18%;
-}
-
-.jumbotron h3 {
-	color: #FFFFFF;
-	font-size: 4vw;
-	text-align: right;
-	font-family: 'Dosis', sans-serif;
-}
-
-.jumbotron .container {
-    position: relative;
-    top: 100px;
-}
-
-.footer {
-	position: absolute;
-	height: 10%;
-	width: 100%;
+body{
 	background-color: #FFFFFF;
-	margin-top: 0;
+	margin: 0;
+	color: #32323c;
 }
 
-.footer h2 {
-	font-size: 20px;
-	text-align: right;
-	font-family: 'Dosis', sans-serif;
-	font-weight: thin;
+.landing {
+	background-image: url('images/flatback.JPG');
+	background-size:   cover;
+	background-position:0;
+	overflow:hidden;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
+
+.landing h1 {
+	color:#FFFFFF;
+	font-family: "Dosis";
+	font-weight: 700;
+	letter-spacing: .25em;
+	text-align: center;
+	padding-top: 20rem;
+	padding-bottom: 30rem;
+}
+
+.landing p {
+	color: #C0C0C0;
+	font-family: "Dosis";
+	letter-spacing: .1em;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.about {
+	background-color: #FFFFFF;
+	width: 100%;
+}
+
+.container {
+	width: 90%;
+	padding-top: 3%;
+	margin: auto;
+}
+
+.circle {
+	background-image: url('images/portrait2.JPG');
+	background-size: cover;
+	border-radius: 50%;
+	padding-bottom:100%;
+}
+
+.padding {
+	padding: 5%;
+}
+
+.title h3{
+	font-family: "Dosis";
+	font-weight: 800;
+	font-size:2.5em;
+	color: #000000;
+	text-align: center;
+}
+
+.description p {
+
+	font-family: "Raleway";
+	font-size: 1em;
+	line-height: 2em;
+	margin: 0px;
+	padding-top: 5%;
+	padding-left: 7%;
+}
+
+.links {
+	font-family: "Raleway";
+	margin: 0px;
+	padding-left: 7%;
+	padding-top: 5%;
+}
+
+.header-line {
+	margin: .4em auto 2em auto;
+	width: 40px;
+	height: 3px;
+	background-color:#6699FF;
+}
+
+.experience {
+	background-color: #F0F0F0;
+	width: 100%;
+	padding-bottom: 10%;
+}
+
+.map {
+	background-color: #FFFFFF;
+	height: 20%;
+}
+
+.mapbox {
+	padding-bottom:10%;
+}
+
+.ending {
+	background-color: #000000;
+	height: 8em;
+}
+
+.ending p{
+	font-family: "Dosis";
+	color: #444444;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 1em
+}
+
+
