@@ -54,6 +54,7 @@ header {
 
 .about_me {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	padding: 5% 5%;
