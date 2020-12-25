@@ -31,7 +31,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 5%;
+	padding: 2px 5%;
 	height: 10vh;
 }
 
@@ -95,7 +95,7 @@ img {
 	text-decoration: none;
 	padding-left: 2%;
 	width: 500px;
-	padding-top: 5vh;
+	padding-top: 1vh;
 }
 
 .profile_content h1 {
