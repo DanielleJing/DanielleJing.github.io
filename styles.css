@@ -59,6 +59,13 @@ header {
 	display: inline-block;
 	padding: 10px 10px;
 }
+@media (max-width: 860px) {
+	.nav_links li {
+		display: inline-block;
+		padding: 3px 3px;
+	}
+   }
+}
 
 .nav_links li a {
 	transition: all 0.3s ease 0s;
@@ -136,11 +143,10 @@ img {
 	.profile_content {
 		font-family: "Quicksand", sans-serif;
 		font-weight: 400;
-		font-size: 16px;
+		font-size: 1em;
 		text-decoration: none;
 		padding-left: 2%;
-		width: 500px;
-		padding-top: 8vh;
+		width: 860px;
    }
 }
 
