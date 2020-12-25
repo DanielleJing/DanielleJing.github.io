@@ -73,8 +73,10 @@ header {
 }
 
 .profile_pic {
-	width: 500px;
-	height: 500px;
+	max-width: 90vw;
+	max-height: 90vw;
+	width: 60vh;
+	height: 60vh;
 	object-fit: cover;
 	border-radius: 50%;
 }
