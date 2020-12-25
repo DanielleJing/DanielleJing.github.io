@@ -5,7 +5,17 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	background-color:white;
+	/*background-color:white;*/
+}
+
+body {
+	height:100vh;
+	overflow: hidden;
+}
+
+section {
+	height: 100vh;
+	position: relative;
 }
 
 /* Navbar */
@@ -22,6 +32,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 5%;
+	height: 10vh;
 }
 
 .nav_links {
@@ -58,6 +69,7 @@ header {
 	justify-content: center;
 	align-items: center;
 	padding: 5% 5%;
+	height: 90vh;
 }
 
 .profile_pic {
@@ -81,28 +93,43 @@ img {
 	text-decoration: none;
 	padding-left: 2%;
 	width: 500px;
+	padding-top: 5vh;
 }
 
 .profile_content h1 {
 	color: 	#3CB371;
 }
 
-/*
-.profile_pic {
-    position: relative;
-    overflow: hidden;
-	border-radius: 50%;
-	background-size: cover;
-	padding-bottom: 100%;
-	height: 100%;
-	width: 100%;
+/*TBD Page*/
+
+section:nth-child(2) {
+	background-color:#3CB371; 
 }
- /*
-.profile-picture {
-	background-image: url('images/dj2-crop.jpg');
-	background-size: cover;
-	border-radius: 50%;
-	padding-bottom:100%;
-	
-  }
-  */
+
+.tbd_page {
+	height: 100vh;
+	display: flex;
+	font-family: "Quicksand", sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*Bottom buttons*/
+.nav_buttons {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+button {
+	font-size: 16px;
+	border: 1px solid #3CB371;
+	padding: 10px;
+	border-radius: 5px;
+	color:#3CB371;
+}
