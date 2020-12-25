@@ -142,9 +142,9 @@ img {
 	.profile_content {
 		font-family: "Quicksand", sans-serif;
 		font-weight: 400;
-		font-size: 3vw;
+		font-size: 3.5vw;
 		text-decoration: none;
-		padding-left: 2%;
+		text-align: center;
 		width: 860px;
    }
 }
