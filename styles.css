@@ -15,6 +15,7 @@ body {
 @media (max-width: 860px) {
 	.body {
 		height:100vh;
+		overflow: hidden;
    }
 }
 
@@ -25,12 +26,21 @@ section {
 }
 
 /* Navbar */
-li,a,button {
+li,a {
 	font-family: "Quicksand", sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	color: black;
 	text-decoration: none;
+}
+@media (max-width: 860px) {
+	li, a {
+		font-family: "Quicksand", sans-serif;
+		font-weight: 400;
+		font-size: 14px;
+		color: black;
+		text-decoration:none;
+   }
 }
 
 header {
@@ -65,6 +75,15 @@ header {
 	color: black;
 	text-decoration: none;
 }
+@media (max-width: 860px) {
+	.page_title {
+		font-family: "Quicksand", sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		color: black;
+		text-decoration: none;
+   }
+}
 
 
 /* About me styles */
@@ -76,6 +95,16 @@ header {
 	align-items: center;
 	padding: 5% 5%;
 	height: 90vh;
+}
+@media (max-width: 860px) {
+	.about_me {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: normal;
+		padding: 5% 5%;
+		height: 70vh;	
+   }
 }
 
 .profile_pic {
@@ -102,6 +131,17 @@ img {
 	padding-left: 2%;
 	width: 500px;
 	padding-top: 1vh;
+}
+@media (max-width: 860px) {
+	.profile_content {
+		font-family: "Quicksand", sans-serif;
+		font-weight: 400;
+		font-size: 16px;
+		text-decoration: none;
+		padding-left: 2%;
+		width: 500px;
+		padding-top: 8vh;
+   }
 }
 
 .profile_content h1 {
@@ -316,7 +356,7 @@ section:nth-child(2) {
 		top: -8px;
 		height: 0;
 		width: 0;
-		margin-left: -8px;
+		margin-right: -8px;
 		border: solid transparent;
 		border-bottom-color: #fff;
 		border-width: 8px;
@@ -432,4 +472,15 @@ button {
 	padding: 10px;
 	border-radius: 5px;
 	color:#3CB371;
+	background-color: white;
+}
+@media (max-width: 860px) {
+	button {
+		font-size: 14px;
+		border: 1px solid #3CB371;
+		padding: 10px;
+		border-radius: 5px;
+		color:#3CB371;
+		background-color: white;
+		
 }
