@@ -146,7 +146,7 @@ section:nth-child(2) {
 }
 @media (max-width: 860px) {
 	.timeline li {
-		padding: 15vh 0;
+		padding: 5vh 0;
    }
 }
 
