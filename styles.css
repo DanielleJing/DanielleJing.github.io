@@ -12,6 +12,12 @@ body {
 	height:100vh;
 	overflow: hidden;
 }
+@media (max-width: 860px) {
+	.body {
+		height:100vh;
+   }
+}
+
 
 section {
 	height: 100vh;
