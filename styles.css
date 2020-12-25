@@ -388,10 +388,13 @@ section:nth-child(2) {
 
 section:nth-child(3) {
 	background-color:#3CB371; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .tbd_page {
-	height: 100vh;
 	display: flex;
 	font-family: "Quicksand", sans-serif;
 	font-weight: 400;
@@ -405,6 +408,8 @@ section:nth-child(3) {
 .ending-gif {
 	height:20vh;
 	width:20vh;
+	max-height:20vw;
+	max-width: 30vw;
 }
 
 
