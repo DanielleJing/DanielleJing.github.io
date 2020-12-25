@@ -146,7 +146,7 @@ section:nth-child(2) {
 }
 @media (max-width: 860px) {
 	.timeline li {
-		padding: 2em 0;
+		padding: 15vh 0;
    }
 }
 
@@ -400,6 +400,11 @@ section:nth-child(3) {
 	text-decoration: none;
 	justify-content: center;
 	align-items: center;
+}
+
+.ending-gif {
+	height:20vh;
+	width:20vh;
 }
 
 
