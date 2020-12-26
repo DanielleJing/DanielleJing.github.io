@@ -161,6 +161,9 @@ section:nth-child(2) {
 
 .timeline {
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
 	width: 860px;
 	margin: 0px auto;
 	padding: 20px;
@@ -193,7 +196,7 @@ section:nth-child(2) {
 }
 
 .timeline li {
-	padding: 5vh 0;
+	padding: 2% 0;
 }
 @media (max-width: 860px) {
 	.timeline li {
@@ -426,7 +429,7 @@ section:nth-child(2) {
 	.desc {
 		position: relative;
 		margin: 1em 1em 0 1em;
-		padding: 1em;
+		padding: 0.5vh;
 		background: #f5f5f5;
 		box-shadow: 0 0 1px rgba(0, 0, 0, 0.20);
 		z-index: 15;
