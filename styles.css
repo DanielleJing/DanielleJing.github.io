@@ -193,11 +193,11 @@ section:nth-child(2) {
 }
 
 .timeline li {
-	padding: 15vh 0;
+	padding: 5vh 0;
 }
 @media (max-width: 860px) {
 	.timeline li {
-		padding: 5vh 0;
+		padding: 4vh 0;
    }
 }
 
@@ -473,19 +473,21 @@ section:nth-child(3) {
 
 button {
 	font-size: 16px;
-	border: 1px solid #3CB371;
-	padding: 10px;
-	border-radius: 5px;
+	border: 2px solid #3CB371;
+	padding: 20px;
+	border-radius: 30px;
 	color:#3CB371;
 	background-color: white;
+	outline: none;
 }
 @media (max-width: 860px) {
 	button {
 		font-size: 14px;
-		border: 1px solid #3CB371;
+		border: 2px solid #3CB371;
 		padding: 10px;
-		border-radius: 5px;
+		border-radius: 30px;
 		color:#3CB371;
 		background-color: white;
+		outline: none;
 	}
 }
