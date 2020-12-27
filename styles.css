@@ -71,7 +71,7 @@ header {
 }
 
 .nav_links li a:hover {
-	color: grey
+	color: grey;
 }
 
 .page_title {
@@ -161,9 +161,6 @@ section:nth-child(2) {
 
 .timeline {
 	position: relative;
-	display: flex;
-	flex-direction: column;
-	flex: 1;
 	width: 860px;
 	margin: 0px auto;
 	padding: 20px;
@@ -196,7 +193,7 @@ section:nth-child(2) {
 }
 
 .timeline li {
-	padding: 1% 0;
+	padding: 10% 0;
 }
 @media (max-width: 860px) {
 	.timeline li {
@@ -475,9 +472,9 @@ section:nth-child(3) {
 }
 
 button {
-	font-size: 16px;
+	font-size: 18px;
 	border: 2px solid #3CB371;
-	padding: 20px;
+	padding: 15px;
 	border-radius: 30px;
 	color:#3CB371;
 	background-color: white;
@@ -493,4 +490,16 @@ button {
 		background-color: white;
 		outline: none;
 	}
+}
+
+button:hover {
+	color: white;
+	background-color:#3CB371;
+	outline: none;
+}
+
+button:active {
+	color: white;
+	background-color:#3CB371;
+	outline: none;
 }
